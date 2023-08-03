@@ -5,8 +5,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 80px; /* Default height for desktop */
-    position: relative; /* Add position relative to the navbar */
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .logo {
