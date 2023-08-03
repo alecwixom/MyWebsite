@@ -1,0 +1,78 @@
+.navbar {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.navlinks {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+
+h1 {
+    margin: 0px;
+}
+
+.socialbox {
+    position: absolute;
+    display: flex;
+    right: 0px;
+    top: 0px;
+}
+
+img {
+    display: flex;
+    padding: 3px;
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.sociallink {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.socialitem {
+    display: flex;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    color: black;
+}
+
+.logo:hover {
+    color: black;
+}
