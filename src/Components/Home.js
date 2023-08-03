@@ -1,9 +1,12 @@
+import './home.css'
 
 const home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eveniet sapiente natus labore sint maxime dolorum cupiditate, praesentium soluta quisquam architecto reiciendis ratione est unde delectus odio voluptas quos qui.</p>
+        <div className="intro">
+            <div className='background'>
+            </div>
+            <h1>Hello, I'm Alec Wixom!</h1>
+            <h2>Full-Stack developer who enjoy's the art of coding, games and camping. I am located in Utah County, Utah.</h2>
         </div>
     )
 }

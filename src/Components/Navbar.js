@@ -8,8 +8,7 @@ const navbar = () => {
 
     const styleActiveLink = ({ isActive }) => {
         return {
-            color: isActive ? "grey" : "",
-            textDecoration: isActive ? "underline" : "",
+            color: isActive ? "white" : "",
         }
     }
 

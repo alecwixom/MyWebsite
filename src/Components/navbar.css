@@ -1,17 +1,28 @@
+/* navbar.css */
+
 .navbar {
     background-color: lightblue;
     width: 100%;
     display: flex;
+    justify-content: center;
+    height: 80px; /* Default height for desktop */
+    position: relative; /* Add position relative to the navbar */
 }
 
 .logo {
     padding: 10px;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333; /* Dark text color */
 }
 
 .navlinks {
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    align-items: center;
 }
 
 li {
@@ -29,17 +40,15 @@ a:hover {
     color: grey;
 }
 
-
-
 h1 {
-    margin: 0px;
+    margin: 0;
 }
 
 .socialbox {
     position: absolute;
     display: flex;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
 }
 
 img {
@@ -56,8 +65,8 @@ svg {
 .sociallink {
     display: flex;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
 }
 
 .socialitem {
@@ -75,4 +84,44 @@ img {
 
 .logo:hover {
     color: black;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    .navbar {
+        height: 60px; /* Smaller height on mobile */
+        padding: 10px; /* Adjust padding on mobile */
+    }
+
+    .logo {
+        font-size: 10px; /* Decrease font size on mobile */
+        left: 10px; /* Adjust left position on mobile */
+        top: 15px;
+    }
+
+    .navlinks {
+
+        align-items: center;
+        margin-top: 10px; /* Adjust margin on mobile */
+    }
+
+    li {
+        margin: 5px 0;
+    }
+
+    a {
+        font-size: 14px;
+        padding: 5px; /* Reduce padding on mobile */
+    }
+
+    svg {
+        height: 25px;
+        width: 25px;
+    }
+
+    .socialbox,
+    .sociallink {
+        position: static;
+        margin: 10px 0;
+    }
 }
