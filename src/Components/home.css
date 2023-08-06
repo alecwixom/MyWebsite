@@ -6,6 +6,12 @@
     padding: 5px;
 }
 
+.hometitle {
+    font-family: 'PT Serif', serif;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
 h2 {
     display: flex;
     margin-right: 20%;
@@ -36,14 +42,14 @@ h2 {
     height: fit-content;
 }
 
-.liftshareimg{
-position: sticky;
-width: 100%;
-height: 100%;
-box-sizing: border-box;
+.liftshareimg {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
 
-.liftshareimg:hover{
+.liftshareimg:hover {
     width: 120%;
     height: 120%;
 }
@@ -54,31 +60,33 @@ box-sizing: border-box;
     margin-right: auto;
     font-size: large;
     word-spacing: 2px;
+    padding-top: 30px;
 }
 
 .portrait {
-display: flex;
-position: absolute;
-width: 40%;
-height: 40%;
-margin-left: 1in;
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin-left: 1in;
 }
 
 .homeimg {
-width: 55%;
-height: 100%;
-margin: 0px;
-padding: 0px;
-border: 3px solid white;
-border-radius: 100%;
+    width: 55%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid white;
+    border-radius: 100%;
 }
 
 .intro-text {
-font-size: xx-large;
-font-style: italic;
-margin-left: 40%;
-margin-right: 40%;
-padding-top: 100px;
+    font-family: 'PT Serif', serif;
+    font-size: xx-large;
+    font-style: italic;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 100px;
 }
 
 @media (max-width: 768px) {

@@ -45,4 +45,30 @@
   .App-logo {
     height: 30vmin;
   }
+
+  ::-webkit-scrollbar {
+    width: 30px;
+  }
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #333;
+}
+
+/* Fonts Here */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/* font-family: 'PT Serif', serif; */

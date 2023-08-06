@@ -6,15 +6,14 @@ import chat from '../images/Chat.png'
 const projects = () => {
     return (
         <div className="projects">
-            <h1 className='protitle'>Projects</h1>
-            <p>
-                [ - Description of page - ]
-            </p>
+            <h2 className='protitle'>
+                Check out some of the projects I created below
+            </h2>
             <div className='liftsharebox'>
                 <a className='liftlink' target='_blank' href="https://github.com/alecwixom/CapstoneSpecs">
                     <img className='liftshareimg' src={liftshare} alt="LiftShare" />
                 </a>
-                <p className='liftdesc'>
+                <p className='chatdesc'>
                     LiftShare is my Capstone project while at DevMountain, this project contains axios requests, postgresSQL and other functionalities that were a blast to work on.
                     Click the image to see the github repo!
                 </p>
@@ -24,8 +23,9 @@ const projects = () => {
                     <img className='chatimg' src={chat} alt="chatpng" />
                 </a>
                 <p className='liftdesc'>
-                    AnonymoChat is my Capstone Website I created during foundations at DevMountain. This project uses axios requests, built in database and the use of socket.io for
+                    AnonymoChat is my Capstone Website I created during foundations at DevMountain. This project uses axios requests, JSON database and the use of socket.io for
                     fast communication from client to server in messaging.
+                    Click the image to see the github repo!
                     </p>
             </div>
         </div>

@@ -4,10 +4,14 @@ html {
 
 .projects {
     color: white;
+
 }
 
 .protitle {
-    color: black;
+    color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: 'PT Serif', serif;
 }
 
 .chatbox {
@@ -29,4 +33,77 @@ html {
 .chatimg:hover {
     width: 120%;
     height: 120%;
+}
+
+.liftdesc {
+    font-size: larger;
+    font-family: 'PT Serif', serif;
+}
+
+.chatdesc {
+    font-size: larger;
+    font-family: 'PT Serif', serif;
+    max-width: 400px;
+    padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust the project title alignment for mobile */
+    .protitle {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* Adjust the chatbox layout for mobile */
+    .chatbox {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.5in;
+    }
+
+    /* Adjust the chatlink width for mobile */
+    .chatlink {
+        width: 100%;
+        margin-bottom: 0.5in;
+    }
+
+    .liftlink {
+        display: flex;
+        position: absolute;
+            width: 100%;
+            margin-bottom: 0.5in;
+    }
+
+    .liftshareimg:hover {
+        width: 100%;
+    }
+
+    /* Adjust the chatimg size for mobile */
+    .chatimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .chatimg:hover {
+        width: 100%;
+    }
+
+    /* Adjust the liftdesc font size for mobile */
+    .liftdesc {
+        font-size: 1rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .chatdesc {
+        font-size: 1rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+        padding: 0px;
+    }
 }
